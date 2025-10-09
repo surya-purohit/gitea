@@ -36,7 +36,7 @@ func ApplyDiffPatch(ctx *context.APIContext) {
 	//   in: body
 	//   required: true
 	//   schema:
-	//     "$ref": "#/definitions/UpdateFileOptions"
+	//     "$ref": "#/definitions/ApplyDiffPatchOptions"
 	// responses:
 	//   "200":
 	//     "$ref": "#/responses/FileResponse"
